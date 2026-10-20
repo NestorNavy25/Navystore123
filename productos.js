@@ -1,14 +1,14 @@
 const NAVYSTORE_PRODUCTS = [
   {
-    id: "prenda-001",
+    id: "prenda-006",
     name: "Camisa Nike",
     price: 125,
     category: "hombre",
-    sizes: ["S"],
-    stock: { S: 1 },
+    sizes: ["M"],
+    stock: { M: 1 },
     description: "Camisa Nike, talla S.",
-    image: ,
-    photos: [],
+    image:"datos imagenes/prenda-006.jpeg" ,
+    photos: ["datos imagenes/prenda-006.jpeg"],
     available: true
   }
 ];
