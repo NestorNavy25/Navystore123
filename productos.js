@@ -18,7 +18,7 @@ const NAVYSTORE_PRODUCTS = [
     sizes: ["M"],
     stock: { M: 1 },
     description: "ideal para el clima",
-    image:"" ,
+    image:"datos imagenes/prenda-010.jpeg" ,
     available: true
   },
 ];
