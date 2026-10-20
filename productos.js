@@ -4,7 +4,7 @@
 // Usa un id de texto único para cada prenda. Edita este archivo en GitHub.
 const NAVYSTORE_PRODUCTS = [
   {
-    id: "prenda-001.jpeg",
+    id: "prenda-001",
     name: "Camisa negra nike",
     price: 125,
     category: "hombre",
