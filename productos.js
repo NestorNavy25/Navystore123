@@ -100,13 +100,13 @@ const NAVYSTORE_PRODUCTS = [
   },
    {
     id: "prenda-009",
-    name: "panns essential",
-    price: 130,
+    name: "sudadera negra ",
+    price: 95,
     category: "hombre",
-    sizes: ["M"],
-    stock: { M: 1 },
+    sizes: ["L"],
+    stock: { L: 1 },
     description: "con forme a tu estilo",
-    image:"" ,
+    image:"datos imagenes/prenda-009.jpeg" ,
     available: true
   },
 ];
