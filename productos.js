@@ -10,4 +10,15 @@ const NAVYSTORE_PRODUCTS = [
     image:"datos imagenes/prenda-010.jpeg" ,
     available: true
   },
+  {
+    id: "prenda-001",
+    name: "Camisa Negra",
+    price: 90,
+    category: "hombre",
+    sizes: ["M"],
+    stock: { M: 1 },
+    description: "con forme a tu estilo",
+    image:"" ,
+    available: true
+  },
 ];
