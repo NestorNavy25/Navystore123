@@ -18,7 +18,7 @@ const NAVYSTORE_PRODUCTS = [
     sizes: ["S"],
     stock: { S: 1 },
     description: "Camisa polo, talla s.",
-    image:"" ,
+    image:"datos imagenes/prenda-001.jpeg" ,
     available: true
   }
 ];
