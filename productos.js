@@ -10,4 +10,15 @@ const NAVYSTORE_PRODUCTS = [
     image:"datos imagenes/prenda-006.jpeg" ,
     available: true
   },
+  {
+    id: "prenda-010",
+    name: "Camisa sudadera",
+    price: 150,
+    category: "hombre",
+    sizes: ["M"],
+    stock: { M: 1 },
+    description: "ideal para el clima",
+    image:"" ,
+    available: true
+  },
 ];
