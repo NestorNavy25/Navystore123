@@ -9,6 +9,6 @@ const NAVYSTORE_PRODUCTS = [
     description: "Camisa Nike, talla S.",
     image: "datos imagenes/prenda-001.jpeg",
     photos: ["datos imagenes/prenda-001.jpeg"],
-    available: false
+    available: true
   }
 ];
