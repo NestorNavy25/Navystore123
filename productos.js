@@ -5,10 +5,10 @@ const NAVYSTORE_PRODUCTS = [
     price: 125,
     category: "hombre",
     sizes: ["S"],
-    stock: { S: 0 },
+    stock: { S: 1 },
     description: "Camisa Nike, talla S.",
     image: "datos imagenes/prenda-001.jpeg",
     photos: ["datos imagenes/prenda-001.jpeg"],
-    available: false
+    available: true
   }
 ];
