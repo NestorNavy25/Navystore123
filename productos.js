@@ -51,7 +51,7 @@ const NAVYSTORE_PRODUCTS = [
     sizes: ["M"],
     stock: { M: 1 },
     description: "con forme a tu estilo",
-    image:"" ,
+    image:"datos imagenes/prenda-004.jpeg" ,
     available: true
   },
 ];
