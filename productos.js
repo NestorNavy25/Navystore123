@@ -7,8 +7,8 @@ const NAVYSTORE_PRODUCTS = [
     sizes: ["S"],
     stock: { S: 1 },
     description: "Camisa Nike, talla S.",
-    image: "imagenes/prenda-001.jpeg",
-    photos: ["imagenes/prenda-001.jpeg"],
+    image: "datos imagenes/prenda-001.jpeg",
+    photos: ["datos imagenes/prenda-001.jpeg"],
     available: true
   }
 ];
