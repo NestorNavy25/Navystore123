@@ -89,13 +89,13 @@ const NAVYSTORE_PRODUCTS = [
   },
    {
     id: "prenda-008",
-    name: "pantaloneta gym shark",
-    price: 80,
+    name: "panns essential",
+    price: 130,
     category: "hombre",
     sizes: ["M"],
     stock: { M: 1 },
     description: "con forme a tu estilo",
-    image:"" ,
+    image:"datos imagenes/prenda-008.jpeg" ,
     available: true
   },
 ];
