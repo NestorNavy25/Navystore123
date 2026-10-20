@@ -98,4 +98,15 @@ const NAVYSTORE_PRODUCTS = [
     image:"datos imagenes/prenda-008.jpeg" ,
     available: true
   },
+   {
+    id: "prenda-009",
+    name: "panns essential",
+    price: 130,
+    category: "hombre",
+    sizes: ["M"],
+    stock: { M: 1 },
+    description: "con forme a tu estilo",
+    image:"" ,
+    available: true
+  },
 ];
