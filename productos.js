@@ -23,13 +23,13 @@ const NAVYSTORE_PRODUCTS = [
   },
   {
     id: "prenda-002",
-    name: "Camisa Negra",
-    price: 90,
+    name: "Camisa Negra gym shark",
+    price: 120,
     category: "hombre",
-    sizes: ["M"],
-    stock: { M: 1 },
+    sizes: ["L"],
+    stock: { L: 1 },
     description: "con forme a tu estilo",
-    image:"" ,
+    image:"datos imagenes/prenda-002.jpeg" ,
     available: true
   },
 ];
