@@ -78,8 +78,8 @@ const NAVYSTORE_PRODUCTS = [
   },
   {
     id: "prenda-007",
-    name: "Camisa gym shark",
-    price: 125,
+    name: "pantaloneta gym shark",
+    price: 80,
     category: "hombre",
     sizes: ["M"],
     stock: { M: 1 },
