@@ -5,15 +5,15 @@
 const NAVYSTORE_PRODUCTS = [
   {
     id: "prenda-001",
-    name: "Camisa 01 - EDITAR NOMBRE",
-    price: 0, // CAMBIAR: precio en quetzales, por ejemplo 125
-    category: "hombre", // "hombre", "mujer" o "unisex"
-    sizes: [], // CAMBIAR: por ejemplo ["S", "M", "L"]
-    stock: {}, // CAMBIAR: unidades por talla; por ejemplo { S: 2, M: 3, L: 1 }
-    description: "EDITAR DESCRIPCIÓN",
+    name: "Camisa negra nike",
+    price: 125,
+    category: "hombre",
+    sizes:["S"],
+    stock:{ S: 1},
+    description: "uso cotidiano",
     image: "imagenes/prenda-001.jpeg",
     photos: ["imagenes/prenda-001.jpeg"],
-    available: false // CAMBIAR a true cuando completes los datos
+    available:true
   },
   {
     id: "prenda-002",
