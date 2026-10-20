@@ -10,15 +10,4 @@ const NAVYSTORE_PRODUCTS = [
     image:"datos imagenes/prenda-006.jpeg" ,
     available: true
   },
-  {
-    id: "prenda-001",
-    name: "Camisa polo",
-    price: 85,
-    category: "hombre",
-    sizes: ["S"],
-    stock: { S: 1 },
-    description: "Camisa polo, talla s.",
-    image:"datos imagenes/prenda-001.jpeg" ,
-    available: true
-  }
 ];
