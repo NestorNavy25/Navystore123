@@ -67,13 +67,13 @@ const NAVYSTORE_PRODUCTS = [
   },
   {
     id: "prenda-006",
-    name: "Camisa sin mangas gym shark",
-    price: 100,
+    name: "Camisa gym shark",
+    price: 125,
     category: "hombre",
-    sizes: ["L"],
-    stock: { L: 1 },
+    sizes: ["M"],
+    stock: { M: 1 },
     description: "con forme a tu estilo",
-    image:"" ,
+    image:"datos imagenes/prenda-006.jpeg" ,
     available: true
   },
 ];
