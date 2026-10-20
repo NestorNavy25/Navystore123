@@ -11,8 +11,8 @@ const NAVYSTORE_PRODUCTS = [
     sizes:["S"],
     stock:{ S: 1},
     description: "uso cotidiano",
-    image: "imagenes/prenda-001.jpeg",
-    photos: ["imagenes/prenda-001.jpeg"],
+    image: "https://github.com/NestorNavy25/Navystore123/commit/052c399420da985aa1da4fb893dc32f3a08795ef#r205825771",
+    photos: ["https://github.com/NestorNavy25/Navystore123/commit/052c399420da985aa1da4fb893dc32f3a08795ef#r205825771"],
     available:true
   },
  ];
