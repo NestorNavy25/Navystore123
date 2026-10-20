@@ -87,4 +87,15 @@ const NAVYSTORE_PRODUCTS = [
     image:"datos imagenes/prenda-007.jpeg" ,
     available: true
   },
+   {
+    id: "prenda-008",
+    name: "pantaloneta gym shark",
+    price: 80,
+    category: "hombre",
+    sizes: ["M"],
+    stock: { M: 1 },
+    description: "con forme a tu estilo",
+    image:"" ,
+    available: true
+  },
 ];
