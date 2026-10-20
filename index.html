@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Navystore: moda para hombres y mujeres en Guatemala." />
+  <title>Navystore | Moda para todos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="productos.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Envíos a toda Guatemala · Compra fácil por WhatsApp</div>
+  <header class="header">
+    <a class="brand" href="#inicio">NAVY<span>STORE</span><small>MODA PARA TODOS</small></a>
+    <nav aria-label="Navegación principal"><a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#nosotros">Nosotros</a></nav>
+    <button id="cartButton" class="cart-trigger" aria-label="Abrir carrito">🛍️ Carrito <span id="cartCount">0</span></button>
+  </header>
+  <main>
+    <section class="hero" id="inicio"><div class="hero-copy"><span class="eyebrow">NUEVA TEMPORADA</span><h1>Tu estilo.<br><em>Tu esencia.</em></h1><p>Descubre prendas para cada ocasión. Moda para hombres y mujeres, hecha para destacar.</p><a class="primary" href="#catalogo">Explorar colección →</a></div><div class="hero-visual"><div class="hero-mark">N<span>®</span></div><p>NEW LOOKS<br>EVERY DAY</p></div></section>
+    <section class="benefits"><span>✦ Estilo actual</span><span>✦ Precios en quetzales</span><span>✦ Pedidos por WhatsApp</span></section>
+    <section id="catalogo" class="catalog"><div class="section-heading"><div><span class="eyebrow">COLECCIÓN NAVYSTORE</span><h2>Encuentra tu próximo look</h2></div><p>Elige tus prendas y confirma tu pedido por WhatsApp.</p></div><div class="filters" role="group" aria-label="Filtrar prendas"><button class="filter active" data-filter="todos">Todos</button><button class="filter" data-filter="hombre">Hombres</button><button class="filter" data-filter="mujer">Mujeres</button><button class="filter" data-filter="unisex">Unisex</button></div><div id="products" class="product-grid"></div></section>
+    <section class="about" id="nosotros"><span class="eyebrow">CONOCE NAVYSTORE</span><h2>La moda empieza contigo.</h2><p>En Navystore creemos que vestir bien es una forma de expresarte. Explora nuestra colección y elige tus favoritos.</p><a href="#catalogo">Ver colección →</a></section>
+  </main>
+  <footer><strong>NAVYSTORE</strong><span>© <span id="year"></span> Navystore · Guatemala</span><a href="#inicio">Volver arriba ↑</a></footer>
+  <div id="overlay" class="overlay" hidden></div>
+  <div id="productOverlay" class="overlay" hidden></div>
+  <section id="productModal" class="product-modal" role="dialog" aria-modal="true" aria-label="Detalle del producto" aria-hidden="true" tabindex="-1">
+    <button id="closeProduct" class="icon-button product-close" aria-label="Cerrar ficha">✕</button>
+    <div id="productDetail"></div>
+  </section>
+  <aside id="cartPanel" class="cart-panel" aria-label="Carrito de compras" aria-hidden="true"><div class="cart-head"><h2>Tu carrito</h2><button id="closeCart" class="icon-button" aria-label="Cerrar carrito">✕</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="total"><span>Total</span><strong id="cartTotal">Q0.00</strong></div><button id="checkout" class="primary checkout">Pedir por WhatsApp ↗</button><p class="fineprint">El pedido se enviará como mensaje. No se realiza ningún cobro en esta página.</p></div></aside>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
